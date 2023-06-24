@@ -18,18 +18,20 @@ const greetingsSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase(fetchGreeting.pending, (state) => {
-      state.loading = true;
-    });
-    builder.addCase(fetchGreeting.fulfilled, (state, action) => {
-      state.greeting = action.payload;
-      state.loading = false;
-    });
-
-    builder.addCase(fetchGreeting.rejected, (state) => {
-      state.error = 'Error fetching greeting';
-      state.loading = false;
-    });
+    builder.addCase(fetchGreeting.pending, (state) => ({
+      ...state,
+      loading: true,
+    }));
+    builder.addCase(fetchGreeting.fulfilled, (state, action) => ({
+      ...state,
+      greeting: action.payload,
+      loading: false,
+    }));
+    builder.addCase(fetchGreeting.rejected, (state) => ({
+      ...state,
+      error: 'Error fetching greeting',
+      loading: false,
+    }));
   },
 });
 
