@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Hello Rails React</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -32,6 +28,8 @@
 # 📖 Hello Rails React <a name="about-project"></a>
 
 Hello Rails React is a sample Rails application that integrates React for frontend development. It demonstrates how to set up a Rails app with React, use react-router for routing, connect to a Rails API endpoint, and display data in a React component.
+
+Click [Here](https://github.com/Outkarm/hello-rails-react-api/pull/1)to take you to the backend pull request.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -94,8 +92,8 @@ In order to run this project, you need to have the following installed:
 Clone this repository to your desired folder:
 
 ```sh
-git clone <repository_url>
-cd hello-rails-react
+git clone git@github.com:Outkarm/hello-rails-react-ui.git
+cd hello-rails-react-ui
 ```
 
 ### Install
@@ -165,7 +163,7 @@ This project can be deployed using your preferred hosting platform or service. F
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/) for any open issues or to create a new one.
+Feel free to check the [issues page](https://github.com/Outkarm/hello-rails-react-ui/issues) for any open issues or to create a new one.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
